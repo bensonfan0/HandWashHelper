@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HandWashHelper/Timer Screen.swift"
+            timestampString = "619498021.982886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Timer_Screen"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HandWashHelper.Timer_Screen"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089282.987071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HandWashHelper.Timer_Screen"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089282.989742"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HandWashHelper.Timer_Screen&gt;"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089282.991812"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HandWashHelper.Timer_Screen&gt;"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089282.9940031"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.__deallocating_deinit"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089282.9964761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HandWashHelper/Timer Screen.swift"
+            timestampString = "619498021.985418"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Timer_Screen"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.timer.getter : __C.NSTimer"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089301.609834"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.timer.setter : __C.NSTimer"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089301.613464"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HandWashHelper.Timer_Screen"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089301.616533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "175">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HandWashHelper.Timer_Screen&gt;"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089301.619189"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HandWashHelper/Timer Screen.swift"
+            timestampString = "619498021.985558"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Timer_Screen"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.timer.getter : __C.NSTimer"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089302.9219429"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.timer.setter : __C.NSTimer"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089302.925512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HandWashHelper.Timer_Screen"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089302.927821"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "175">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HandWashHelper.Timer_Screen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HandWashHelper.Timer_Screen&gt;"
+                  moduleName = "HandWashHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bensonfan/Library/Autosave%20Information/HandWashHelper/HandWashHelper/Timer%20Screen.swift"
+                  timestampString = "619089302.930452"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

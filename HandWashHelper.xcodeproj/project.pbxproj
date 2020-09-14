@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD86F8324E632F900341B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86F8224E632F900341B73 /* AppDelegate.swift */; };
+		0AD86F8524E632F900341B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86F8424E632F900341B73 /* ViewController.swift */; };
+		0AD86F8824E632F900341B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD86F8624E632F900341B73 /* Main.storyboard */; };
+		0AD86F8A24E632FB00341B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD86F8924E632FB00341B73 /* Assets.xcassets */; };
+		0AD86F8D24E632FB00341B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD86F8B24E632FB00341B73 /* LaunchScreen.storyboard */; };
+		0AD86F9824E632FB00341B73 /* HandWashHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86F9724E632FB00341B73 /* HandWashHelperTests.swift */; };
+		0AD86FA324E632FB00341B73 /* HandWashHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86FA224E632FB00341B73 /* HandWashHelperUITests.swift */; };
+		0AD86FB324E634AD00341B73 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86FB224E634AD00341B73 /* Page2.swift */; };
+		0AD86FB524E63B0900341B73 /* Timer Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86FB424E63B0900341B73 /* Timer Screen.swift */; };
+		0AD86FB724E63B3C00341B73 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86FB624E63B3C00341B73 /* Settings.swift */; };
+		0AD86FB924E63C2B00341B73 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86FB824E63C2B00341B73 /* Instructions.swift */; };
+		0AD86FBB24ECB39600341B73 /* notificationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD86FBA24ECB39600341B73 /* notificationClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD86F9424E632FB00341B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD86F7724E632F900341B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD86F7E24E632F900341B73;
+			remoteInfo = HandWashHelper;
+		};
+		0AD86F9F24E632FB00341B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD86F7724E632F900341B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD86F7E24E632F900341B73;
+			remoteInfo = HandWashHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD86F7F24E632F900341B73 /* HandWashHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandWashHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD86F8224E632F900341B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AD86F8424E632F900341B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AD86F8724E632F900341B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AD86F8924E632FB00341B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD86F8C24E632FB00341B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AD86F8E24E632FB00341B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD86F9324E632FB00341B73 /* HandWashHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWashHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD86F9724E632FB00341B73 /* HandWashHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWashHelperTests.swift; sourceTree = "<group>"; };
+		0AD86F9924E632FB00341B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD86F9E24E632FB00341B73 /* HandWashHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWashHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD86FA224E632FB00341B73 /* HandWashHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWashHelperUITests.swift; sourceTree = "<group>"; };
+		0AD86FA424E632FB00341B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD86FB224E634AD00341B73 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Page2.swift; path = ../Page2.swift; sourceTree = "<group>"; };
+		0AD86FB424E63B0900341B73 /* Timer Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer Screen.swift"; sourceTree = "<group>"; };
+		0AD86FB624E63B3C00341B73 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		0AD86FB824E63C2B00341B73 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		0AD86FBA24ECB39600341B73 /* notificationClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD86F7C24E632F900341B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD86F9024E632FB00341B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD86F9B24E632FB00341B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD86F7624E632F900341B73 = {
+			isa = PBXGroup;
+			children = (
+				0AD86F8124E632F900341B73 /* HandWashHelper */,
+				0AD86F9624E632FB00341B73 /* HandWashHelperTests */,
+				0AD86FA124E632FB00341B73 /* HandWashHelperUITests */,
+				0AD86F8024E632F900341B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD86F8024E632F900341B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD86F7F24E632F900341B73 /* HandWashHelper.app */,
+				0AD86F9324E632FB00341B73 /* HandWashHelperTests.xctest */,
+				0AD86F9E24E632FB00341B73 /* HandWashHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD86F8124E632F900341B73 /* HandWashHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0AD86F8224E632F900341B73 /* AppDelegate.swift */,
+				0AD86F8424E632F900341B73 /* ViewController.swift */,
+				0AD86FB224E634AD00341B73 /* Page2.swift */,
+				0AD86FB624E63B3C00341B73 /* Settings.swift */,
+				0AD86FB424E63B0900341B73 /* Timer Screen.swift */,
+				0AD86FB824E63C2B00341B73 /* Instructions.swift */,
+				0AD86FBA24ECB39600341B73 /* notificationClass.swift */,
+				0AD86F8624E632F900341B73 /* Main.storyboard */,
+				0AD86F8924E632FB00341B73 /* Assets.xcassets */,
+				0AD86F8B24E632FB00341B73 /* LaunchScreen.storyboard */,
+				0AD86F8E24E632FB00341B73 /* Info.plist */,
+			);
+			path = HandWashHelper;
+			sourceTree = "<group>";
+		};
+		0AD86F9624E632FB00341B73 /* HandWashHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD86F9724E632FB00341B73 /* HandWashHelperTests.swift */,
+				0AD86F9924E632FB00341B73 /* Info.plist */,
+			);
+			path = HandWashHelperTests;
+			sourceTree = "<group>";
+		};
+		0AD86FA124E632FB00341B73 /* HandWashHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD86FA224E632FB00341B73 /* HandWashHelperUITests.swift */,
+				0AD86FA424E632FB00341B73 /* Info.plist */,
+			);
+			path = HandWashHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD86F7E24E632F900341B73 /* HandWashHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD86FA724E632FB00341B73 /* Build configuration list for PBXNativeTarget "HandWashHelper" */;
+			buildPhases = (
+				0AD86F7B24E632F900341B73 /* Sources */,
+				0AD86F7C24E632F900341B73 /* Frameworks */,
+				0AD86F7D24E632F900341B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandWashHelper;
+			productName = HandWashHelper;
+			productReference = 0AD86F7F24E632F900341B73 /* HandWashHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AD86F9224E632FB00341B73 /* HandWashHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD86FAA24E632FB00341B73 /* Build configuration list for PBXNativeTarget "HandWashHelperTests" */;
+			buildPhases = (
+				0AD86F8F24E632FB00341B73 /* Sources */,
+				0AD86F9024E632FB00341B73 /* Frameworks */,
+				0AD86F9124E632FB00341B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD86F9524E632FB00341B73 /* PBXTargetDependency */,
+			);
+			name = HandWashHelperTests;
+			productName = HandWashHelperTests;
+			productReference = 0AD86F9324E632FB00341B73 /* HandWashHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AD86F9D24E632FB00341B73 /* HandWashHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD86FAD24E632FB00341B73 /* Build configuration list for PBXNativeTarget "HandWashHelperUITests" */;
+			buildPhases = (
+				0AD86F9A24E632FB00341B73 /* Sources */,
+				0AD86F9B24E632FB00341B73 /* Frameworks */,
+				0AD86F9C24E632FB00341B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD86FA024E632FB00341B73 /* PBXTargetDependency */,
+			);
+			name = HandWashHelperUITests;
+			productName = HandWashHelperUITests;
+			productReference = 0AD86F9E24E632FB00341B73 /* HandWashHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD86F7724E632F900341B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Benson Fan";
+				TargetAttributes = {
+					0AD86F7E24E632F900341B73 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0AD86F9224E632FB00341B73 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0AD86F7E24E632F900341B73;
+					};
+					0AD86F9D24E632FB00341B73 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0AD86F7E24E632F900341B73;
+					};
+				};
+			};
+			buildConfigurationList = 0AD86F7A24E632F900341B73 /* Build configuration list for PBXProject "HandWashHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AD86F7624E632F900341B73;
+			productRefGroup = 0AD86F8024E632F900341B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD86F7E24E632F900341B73 /* HandWashHelper */,
+				0AD86F9224E632FB00341B73 /* HandWashHelperTests */,
+				0AD86F9D24E632FB00341B73 /* HandWashHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD86F7D24E632F900341B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD86F8D24E632FB00341B73 /* LaunchScreen.storyboard in Resources */,
+				0AD86F8A24E632FB00341B73 /* Assets.xcassets in Resources */,
+				0AD86F8824E632F900341B73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD86F9124E632FB00341B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD86F9C24E632FB00341B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD86F7B24E632F900341B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD86FBB24ECB39600341B73 /* notificationClass.swift in Sources */,
+				0AD86F8524E632F900341B73 /* ViewController.swift in Sources */,
+				0AD86F8324E632F900341B73 /* AppDelegate.swift in Sources */,
+				0AD86FB524E63B0900341B73 /* Timer Screen.swift in Sources */,
+				0AD86FB324E634AD00341B73 /* Page2.swift in Sources */,
+				0AD86FB924E63C2B00341B73 /* Instructions.swift in Sources */,
+				0AD86FB724E63B3C00341B73 /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD86F8F24E632FB00341B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD86F9824E632FB00341B73 /* HandWashHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD86F9A24E632FB00341B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD86FA324E632FB00341B73 /* HandWashHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD86F9524E632FB00341B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD86F7E24E632F900341B73 /* HandWashHelper */;
+			targetProxy = 0AD86F9424E632FB00341B73 /* PBXContainerItemProxy */;
+		};
+		0AD86FA024E632FB00341B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD86F7E24E632F900341B73 /* HandWashHelper */;
+			targetProxy = 0AD86F9F24E632FB00341B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AD86F8624E632F900341B73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD86F8724E632F900341B73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AD86F8B24E632FB00341B73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD86F8C24E632FB00341B73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AD86FA524E632FB00341B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AD86FA624E632FB00341B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AD86FA824E632FB00341B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandWashHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bfan.HandWashHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AD86FA924E632FB00341B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandWashHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bfan.HandWashHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AD86FAB24E632FB00341B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandWashHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bfan.HandWashHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandWashHelper.app/HandWashHelper";
+			};
+			name = Debug;
+		};
+		0AD86FAC24E632FB00341B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandWashHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bfan.HandWashHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandWashHelper.app/HandWashHelper";
+			};
+			name = Release;
+		};
+		0AD86FAE24E632FB00341B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandWashHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bfan.HandWashHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandWashHelper;
+			};
+			name = Debug;
+		};
+		0AD86FAF24E632FB00341B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandWashHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bfan.HandWashHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandWashHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD86F7A24E632F900341B73 /* Build configuration list for PBXProject "HandWashHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD86FA524E632FB00341B73 /* Debug */,
+				0AD86FA624E632FB00341B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD86FA724E632FB00341B73 /* Build configuration list for PBXNativeTarget "HandWashHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD86FA824E632FB00341B73 /* Debug */,
+				0AD86FA924E632FB00341B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD86FAA24E632FB00341B73 /* Build configuration list for PBXNativeTarget "HandWashHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD86FAB24E632FB00341B73 /* Debug */,
+				0AD86FAC24E632FB00341B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD86FAD24E632FB00341B73 /* Build configuration list for PBXNativeTarget "HandWashHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD86FAE24E632FB00341B73 /* Debug */,
+				0AD86FAF24E632FB00341B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD86F7724E632F900341B73 /* Project object */;
+}
